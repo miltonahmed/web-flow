@@ -393,3 +393,44 @@ button {
   width: 497px;
   text-align: center;
 }
+.getIn_touch_button .primary_btn:hover {
+  background-color: black;
+}
+
+/* ============ Main Section Style here =========== */
+.footer {
+  padding: 103px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.footer_wrapper {
+  max-width: 531px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer_wrapper p {
+  font-family: 'Inter', sans-serif;
+  color: #8987a1;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.footer_nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 48px;
+}
+.footer_nav li a {
+  font-family: 'Inter', sans-serif;
+  color: #8987a1;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
