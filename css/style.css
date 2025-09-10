@@ -160,3 +160,39 @@ body {
 .action_button .primary_btn:hover {
   background-color: black;
 }
+
+/*========= Productive Section ====== */
+.productive_user {
+  background: #f5f8ff;
+  padding-bottom: 137px;
+}
+.Productive_wrapper {
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  padding: 50px 80px;
+}
+.Productive_wrapper .section_title {
+  font-size: 32px;
+  text-align: center;
+}
+.productive_items {
+  display: flex;
+  column-gap: 158px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.item span {
+  font-family: 'Inter', sans-serif;
+  color: #4e47ff;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+}
+.item p {
+  font-family: 'Inter', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 18px;
+}
