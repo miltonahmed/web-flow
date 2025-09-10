@@ -273,3 +273,48 @@ body {
   font-weight: 400;
   line-height: 30px; /* 125% */
 }
+/* ============ Focus Section Style here =========== */
+.focus {
+  margin-bottom: 92px;
+}
+.focus_wrapper {
+  text-align: center;
+  border-radius: 14px;
+  background: #fff;
+  padding: 71px 150px;
+}
+
+.focus_wrapper h3 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.focus_wrapper p {
+  color: rgba(37, 36, 50, 0.5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.focus_image {
+  width: 840px;
+  margin-top: 20px;
+}
+.focus_image img {
+  width: 100%;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  object-fit: cover;
+}
+.focus_button .primary_btn:hover {
+  background-color: white;
+  color: #4e47ff;
+}
