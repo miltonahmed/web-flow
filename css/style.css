@@ -318,3 +318,78 @@ body {
   background-color: white;
   color: #4e47ff;
 }
+/* ============ Get In touch Section Style here =========== */
+.getIn_touch {
+  padding: 71px 0;
+  background: #f5f8ff;
+}
+.getIn_touch_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.getIn_touch_wrapper h1 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 97px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  max-width: 528px;
+}
+label {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 10px;
+  display: block;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 497px !important;
+  height: 70px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  background: #fff;
+  width: 100%;
+  padding: 20px 32px;
+  margin-bottom: 24px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+button {
+  padding: 19px 210px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+.getIn_touch_button .primary_btn {
+  width: 497px;
+  text-align: center;
+}
